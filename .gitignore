@@ -20,5 +20,3 @@
 
 # Environment variables
 .env
-
-main.go
