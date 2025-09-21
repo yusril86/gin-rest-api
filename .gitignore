@@ -25,5 +25,3 @@
 .env
 
 gin-rest-api
-
-main.go
