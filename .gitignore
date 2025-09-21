@@ -1,44 +1,22 @@
-# Binaries for programs and plugins
+# Go binary files
 *.exe
+*.exe~
 *.dll
 *.so
 *.dylib
 
-# Test binaries
-*_test
+# Vendor directory
+/vendor/
 
-# Output of `go build`
-*.o
-*.a
+# Build directory
+/build/
 
-# Dependency directories (except vendor/ if you manage dependencies manually)
-# If using Go modules, the go.mod and go.sum files should be tracked.
-# If using vendoring, the vendor/ directory should typically be tracked.
-# If you are not vendoring and let Go modules handle it, you might want to ignore the module cache.
-# For Go modules, usually no special .gitignore entry is needed for dependencies,
-# as go.mod and go.sum are tracked and the module cache is outside the project.
+# IDE files
+*.idea/
+*.vscode/
 
-# IDE and editor specific files
-.idea/
-.vscode/
-*.swp
-*.bak
-*~
-.DS_Store
-
-# Log files
+# Logs
 *.log
-
-# Build output and temporary files
-tmp/
-build/
-dist/
 
 # Environment variables
 .env
-.env.*
-
-# Miscellaneous
-coverage.out # Go test coverage profile
-
-gin-rest-api/
