@@ -4,6 +4,9 @@
 *.dll
 *.so
 *.dylib
+*.test
+*.out
+*.prof
 
 # Vendor directory
 /vendor/
@@ -20,3 +23,5 @@
 
 # Environment variables
 .env
+
+gin-rest-api
