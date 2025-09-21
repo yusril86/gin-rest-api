@@ -24,4 +24,4 @@
 # Environment variables
 .env
 
-gin-rest-api/
+gin-rest-api
