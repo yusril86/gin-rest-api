@@ -40,3 +40,5 @@ dist/
 
 # Miscellaneous
 coverage.out # Go test coverage profile
+
+gin-rest-api
