@@ -8,9 +8,16 @@ Middleware untuk otentikasi
 Validasi input
 Dokumentasi API menggunakan Swagger
 
-Untuk menjalankan Compile daemon 
+Jalankan aplikasi
 
-´´´bash
+```bash
+   go run main.go
+```
+
+
+Untuk menjalankan lewat Compile daemon 
+
+```bash
 1. go env GOBIN                                                  
    go env GOPATH
 
@@ -18,8 +25,7 @@ Untuk menjalankan Compile daemon
 
 3. export PATH="$PATH:$GOPATH/bin"                                   
 4. source ~/.zshrc        
-5.  ls "$(go env GOPATH)/bin/CompileDaemon"          
+5. ls "$(go env GOPATH)/bin/CompileDaemon"          
 6. CompileDaemon -command="./gin-rest-api" 
 
-
-´´´
+```
