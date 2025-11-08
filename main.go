@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/yusril86/gin-rest-api/controllers"
 	"github.com/yusril86/gin-rest-api/initializer"
 )
 
@@ -19,5 +20,9 @@ func main() {
 			"status":  "success",
 		})
 	})
+
+	router.POST("/posts", controllers.PostsCreate)
+	router.GET("/posts", controllers.PostsIndex)
+
 	router.Run() // listen and serve on 0.0.0.0:8080)
 }
