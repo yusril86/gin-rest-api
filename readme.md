@@ -1,8 +1,8 @@
-Gin REST API
-Deskripsi
+# Gin REST API
+## Deskripsi
 Proyek ini adalah implementasi RESTful API menggunakan framework Gin di Go. API ini dirancang untuk memberikan performa tinggi dan kemudahan penggunaan.
 
-Fitur
+## Fitur
 CRUD (Create, Read, Update, Delete) untuk sumber daya
 Middleware untuk otentikasi
 Validasi input
