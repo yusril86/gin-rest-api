@@ -24,6 +24,7 @@ func main() {
 	router.POST("/posts", controllers.PostsCreate)
 	router.GET("/posts", controllers.PostsIndex)
 	router.GET("/posts/:id", controllers.PostsShow)
+	router.PUT("/posts/:id", controllers.PostsUpdate)
 
 	router.Run() // listen and serve on 0.0.0.0:8080)
 }
